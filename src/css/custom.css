@@ -1,0 +1,146 @@
+:root {
+  --ifm-color-primary:       #ce1b28;
+  --ifm-color-primary-dark:  #ce1b28;
+  --ifm-color-primary-darker:#B31722;
+  --ifm-color-primary-darkest:#82121A;
+  --ifm-color-primary-light: #ce1b28;
+  --ifm-color-primary-lighter:#E02F3C;
+  --ifm-color-primary-lightest:#ea4751;
+
+  --ifm-color-secondary:     #e04c4c;
+  --ifm-color-secondary-dark: #82121A;
+
+  --ifm-color-brand-alert:   #c12b2b;
+
+  --ifm-font-family-base:    'Inter', sans-serif;
+  --ifm-font-family-heading: 'Montserrat', sans-serif;
+  --ifm-code-font-size:      95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0,0,0,0.05);
+
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary:       #ce1b28;
+  --ifm-color-primary-dark:  #ce1b28;
+  --ifm-color-primary-darker:#B31722;
+  --ifm-color-primary-light: #ce1b28;
+  --ifm-color-primary-lighter:#E02F3C;
+  --ifm-color-primary-lightest:#ea4751;
+
+  --ifm-color-secondary:     #e04c4c;
+  --ifm-color-secondary-dark: #82121A;
+
+  --ifm-color-brand-alert:   #e04c4c;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0,0,0,0.2);
+}
+
+/* Navbar & Footer */
+.navbar {
+  background-color: var(--ifm-color-primary);
+}
+
+.footer {
+  background-color: var(--ifm-color-primary-darkest);
+  color: #0000;
+}
+
+/* Button primary variant */
+.button--primary {
+  background-color: var(--ifm-color-secondary);
+  border-color: var(--ifm-color-secondary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-secondary-dark);
+  border-color: var(--ifm-color-secondary-dark);
+}
+
+/* Links hover */
+a:hover, .navbar__link:hover {
+  color: var(--ifm-color-secondary);
+}
+
+strong {
+  color: var( --ifm-color-primary-darkest);
+}
+
+.b {
+  color: var(--ifm-color-primary-darkest);
+}
+
+.navbar__title,
+.navbar__item,
+.navbar__item a,
+.navbar__brand,
+.navbar__brand a,
+.navbar__link,
+.navbar__link:hover {
+  color: #ffffff !important;
+}
+
+/* Force GitHub icon to be white */
+.navbar__item svg,
+.navbar__link svg {
+  fill: #ffffff !important;
+}
+.navbar__toggle svg {
+  stroke: #ffffff !important;
+}
+
+
+
+
+/* search bar styling */
+
+.aa-DetachedSearchButton {
+    background-color: var(--ifm-hero-background-color) !important;
+    color: var(--ifm-color-primary) !important;
+    width: 300px !important;
+    border-radius: 1em !important;
+}
+
+.aa-SubmitIcon  {
+  color: var(--ifm-color-primary) !important;
+  background-color: var(--ifm-hero-background-color) !important;
+
+}
+
+.aa-ClearIcon {
+  color: var(--ifm-color-primary) !important;
+  background-color: var(--ifm-hero-background-color) !important;
+
+}
+
+.aa-DetachedFormContainer {
+    background-color: var(--ifm-hero-background-color) !important;
+    color: var(--ifm-color-primary) !important;
+}
+
+.aa-Panel {
+    background-color: var(--ifm-hero-background-color) !important;
+}
+
+.aa-DetachedContainer {
+    background-color: var(--ifm-hero-background-color) !important;
+    color: var(--ifm-color-primary) !important;
+}
+
+.aa-Input {
+    background-color: var(--ifm-hero-background-color) !important;
+    color: var(--ifm-color-primary) !important;
+    border-radius: 4em !important;
+    padding: 0.3em !important;
+
+}
+
+.aa-Form {
+    background-color: var(--ifm-hero-background-color) !important;
+    color: var(--ifm-color-primary) !important;
+    border-radius: 4em !important;
+    padding: 0.3em !important;
+    border: 2px solid var(--ifm-color-primary) !important;
+}
+
+
+/************************************/

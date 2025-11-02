@@ -1,0 +1,50 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+/* Card */
+.card {
+  background: var(--ifm-color-background); 
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  position: relative;
+  border: 1px solid transparent;
+  border-color: var(--ifm-color-primary);
+}
+
+/* Hover effect — light lift */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon */
+.icon {
+  font-size: 4em;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary); 
+  transition: color 0.2s ease;
+}
+
+.card:hover .icon {
+  color: var(--ifm-color-primary-darker);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-primary-text);
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: var(--ifm-color-secondary-text); 
+  line-height: 1.5;
+}
