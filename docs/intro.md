@@ -1,51 +1,119 @@
 ---
 title: Willkommen zur ALARMiator Dokumentation
+sidebar_position: 1
+slug: /intro
 ---
 
-ALARMiator ist eine **Open-Source-Lösung** zur Verwaltung und Alarmierung von Rettungsorganisationen jeglicher Art und Größe. Entwickelt von ehrenamtlich Tätigen für die Bedürfnisse moderner BOS-Einheiten.
+# 🚒 ALARMiator Dokumentation 🚑
+
+<div style={{padding: '20px', backgroundColor: 'rgba(206, 27, 40, 0.1)', borderRadius: '10px', marginBottom: '20px'}}>
+  <h2 style={{marginTop: 0}}>Aus dem Ehrenamt für das Ehrenamt</h2>
+  <p>Zusatzalarmierung • Mitgliederverwaltung • Inventar • Wallboards • Mobile Apps</p>
+</div>
 
 ## 🚀 Schnellstart
 
-- **Neu hier?** Starte mit unserem [PROBIERiator](alarmiator-probieren) - teste ALARMiator ohne Installation
-- **Installation?** Folge der [Schritt-für-Schritt-Anleitung](gettingstarted)
-- **Mobile App?** Siehe [Android](docs-mobile/android-guide-fuer-benutzer) oder [iOS Guide](docs-mobile/android-guide-fuer-benutzer)
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px', marginTop: '20px'}}>
 
-## 📚 Hauptbereiche
+<div style={{padding: '20px', border: '2px solid var(--ifm-color-primary)', borderRadius: '10px'}}>
 
-### [Installation & Einrichtung](gettingstarted)
-Server-Installation, Netzwerk-Konfiguration und erste Einrichtungsschritte.
+### 🆕 Neu hier?
 
-### [Stammdaten](uebersicht-stammdatenanlegen)
-Organisationen, Standorte, Mitglieder und Benutzer verwalten.
+**[PROBIERiator testen →](https://probiere.alarmiator.de)**  
+Teste ALARMiator ohne Installation direkt im Browser
 
-### [Alarmierung](uebersicht-alarmierungen)
-Alarmierungsprofile, Alarmwege und Alarmquellen einrichten.
+**[Systemanforderungen →](systemanforderungen)**  
+Was wird für den Betrieb benötigt?
 
-### [Wallboards](uebersicht-wallboard)
-Alarmmonitore für Bereitschafts- und Alarmmodus konfigurieren.
+**[Installation starten →](installation-des-servers-via-docker-compose)**  
+Schritt-für-Schritt Anleitung
 
-### [Administration](uebersicht-dashboard)
-Systemverwaltung, Plugins, Updates und Wartung.
+</div>
 
-## 💡 Wichtige Features
+<div style={{padding: '20px', border: '2px solid var(--ifm-color-primary)', borderRadius: '10px'}}>
 
-- ✅ **Zusatzalarmierung** über iOS/Android Apps
-- ✅ **Organisationsverwaltung** (Mitglieder, Inventar, Termine)
-- ✅ **Flexible Alarmierungswege** (App, SMS, E-Mail, DIVERA)
-- ✅ **Wallboards** für unbegrenzte Alarmmonitore
-- ✅ **Plugin-System** für maximale Flexibilität
-- ✅ **KatSys-Anbindung** und REST-API
+### 📱 Mobile Apps
+
+**[Android Setup →](docs-mobile/android-guide-fuer-benutzer)**  
+Installation und Einrichtung für Android
+
+**[iOS Setup →](docs-mobile/ios-guide-fuer-benutzer)**  
+Installation und Einrichtung für iPhone
+
+</div>
+
+<div style={{padding: '20px', border: '2px solid var(--ifm-color-primary)', borderRadius: '10px'}}>
+
+### 🚨 Alarmierung
+
+**[Alarmierung einrichten →](uebersicht-alarmierungen)**  
+Komplette Einrichtungsanleitung
+
+**[KatSys anbinden →](katsyscloudconnector)**  
+Leitstellenanbindung konfigurieren
+
+**[Probealarm testen →](zeitgesteuerteprobealarmeanlegen)**  
+System testen
+
+</div>
+
+</div>
 
 ## 🆘 Hilfe & Support
 
-- **Community**: [community.alarmiator.de](https://community.alarmiator.de)
-- **Troubleshooting**: [Docker](dockertroubleshooting) | [Allgemein](externeipadressewirdnichtaktualisiert)
-- **Updates**: [Server aktualisieren](updatedesalarmiatorservers)
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '15px', marginTop: '20px'}}>
 
-## 📖 Über diese Dokumentation
+<div style={{textAlign: 'center', padding: '15px', backgroundColor: 'var(--ifm-color-emphasis-100)', borderRadius: '8px'}}>
 
-Diese Dokumentation beschreibt die aktuellste veröffentlichte Version von ALARMiator. Bei Fragen oder Verbesserungsvorschlägen melde dich in unserer [Community](https://community.alarmiator.de).
+### 💬 Community Forum
+
+Fragen? Probleme? Die Community hilft!
+
+**[→ Forum öffnen](https://community.alarmiator.de)**
+
+</div>
+
+</div>
+
+## 🔍 Häufige Probleme
+
+- **[Alarm kommt nicht an](eserfolgtkeinealarmierung)** - Checkliste zur Fehlersuche
+- **[Externe IP nicht aktualisiert](externeipadresse)** - Netzwerkprobleme lösen
+- **[Mobile App Akkuoptimierung](docs-mobile/android-guide-fuer-benutzer#akkuoptimierung-ausstellen)** - Android Einstellungen
+
+## 💡 Wichtige Hinweise
+
+:::tip Tipp
+Probier ALARMiator mit dem **[PROBIERiator](https://probiere.alarmiator.de)** ganz ohne Installation!
+:::
+
+:::info Docker empfohlen
+Wir empfehlen die Installation via **[Docker Compose](installation-des-servers-via-docker-compose)**. Die Installation, sowie Updates sind damit deutlich leichter.
+:::
+
+:::warning Backup nicht vergessen
+Erstelle regelmäßig **[Backups](backupdeinesserverserstellen)** deiner ALARMiator Installation!
+:::
 
 ---
 
-**Hinweis**: ALARMiator ist kostenlos und wird ausschließlich durch die Freizeit der beteiligten Entwickler finanziert.
+<div style={{textAlign: 'center', marginTop: '40px', padding: '20px', backgroundColor: 'var(--ifm-color-emphasis-100)', borderRadius: '10px'}}>
+
+## 🎉 Bereit loszulegen?
+
+<div style={{marginTop: '20px'}}>
+
+**[🚀 Installation starten](installation-des-servers-via-docker-compose)** • 
+**[📱 Mobile App einrichten](docs-mobile/intro)** • 
+**[🚨 Alarmierung konfigurieren](uebersicht-alarmierungen)**
+
+</div>
+
+<div style={{marginTop: '20px', fontSize: '14px', color: 'var(--ifm-color-emphasis-600)'}}>
+
+ALARMiator wird mit ❤️ von Ehrenamtlichen für Ehrenamtliche entwickelt.  
+Kostenlos für alle!
+
+</div>
+
+</div>
