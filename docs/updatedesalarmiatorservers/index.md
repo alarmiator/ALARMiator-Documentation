@@ -3,6 +3,9 @@ title: "Update des ALARMiator Servers"
 slug: /updatedesalarmiatorservers
 ---
 
+import DockerCompose from '../../docker-examples/dockercompose.mdx';
+
+
 # Update des ALARMiator Servers
 
 Von Zeit zu Zeit stellen wir neue Versionen des ALARMiator Servers zur Verfügung. Diese Updates enthalten neben neuen Funktionen manchmal auch Fehlerbereinigungen oder Performance-Verbesserungen. Da ALARMiator auch über Webbrowser verwendet wird, und sich Browser mit der Zeit auch verändern, reagieren wir mit Updates auch auf diese Änderungen. So stellen wir einen möglichst stabilen Einsatz des Servers auf Dauer sicher.
@@ -145,61 +148,7 @@ Hier die aktuellste docker-compose.yml. Ersetzt eure alte unbedingt mit dieser:
 
 
 
-```
-networks:
-  alarmiator-network:
-    name: alarmiator-network
-    driver: bridge
-
-services:
-  alarmiator_service:
-    networks:
-      - alarmiator-network
-    restart: always
-    image: alarmiator/alarmiator
-    healthcheck:
-      test: curl --fail http://localhost:5000 || exit 1
-      interval: 20s
-      retries: 5
-      start_period: 600s
-      timeout: 10s
-    volumes:
-      - alarm-db:/alarmiatorserver/store
-      - alarm-katsys-uploads:/alarmiatorserver/plugins/inbound/katsys/uploads
-      - alarm-public-img:/alarmiatorserver/public/assets/img
-      - alarm-uploads:/alarmiatorserver/uploads
-      - alarm-logs:/alarmiatorserver/logs
-      - alarm-backups:/alarmiatorserver/backup
-  nginxProxyManager:
-    networks:
-      - alarmiator-network
-    image: 'jc21/nginx-proxy-manager:2.10.0'
-    restart: always
-    depends_on:
-      alarmiator_service:
-        condition: service_healthy
-    ports:
-      - '80:80'
-      - '81:81'
-      - '443:443'
-    healthcheck:
-      test: curl --fail http://localhost:81 || exit 1
-      interval: 20s
-      retries: 5
-      start_period: 10s
-      timeout: 10s
-    volumes:
-      - /nginx-pm/data:/data
-      - /nginx-pm/letsencrypt:/etc/letsencrypt
-
-volumes:
-  alarm-db:
-  alarm-katsys-uploads:
-  alarm-public-img:
-  alarm-uploads:
-  alarm-logs:
-  alarm-backups:
-```
+<DockerCompose/>
 
 
 

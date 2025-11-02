@@ -14,8 +14,6 @@ Bevor du mit der Alarmierungseinrichtung beginnst, sollten bereits vorhanden sei
 - ✅ Mindestens ein [Mitglied](mitglieder-anlegen)
 - ✅ Zugehöriger [Benutzer](benutzer-anlegen) für das Mitglied
 
-→ Falls noch nicht geschehen: [Stammdaten-Übersicht](uebersicht-stammdatenanlegen)
-
 ## 🔧 Schritt-für-Schritt Einrichtung
 
 ### 1. Plugins aktivieren

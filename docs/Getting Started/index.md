@@ -8,7 +8,7 @@ Diese Anleitung führt dich Schritt für Schritt durch die Einrichtung deines AL
 ## 📋 Voraussetzungen
 
 Bevor du startest, stelle sicher dass du:
-- Einen **Raspberry Pi 4** (empfohlen) oder Linux-Server hast
+- Einen **Raspberry Pi 4 oder 5** oder **Linux-Server** hast. Wir empfehlen, wenn möglich die Anmietung eines VPS.
 - Eine **stabile Internetverbindung** verfügbar ist
 - Grundkenntnisse in **SSH und Linux** mitbringst (hilfreich, aber nicht zwingend)
 
@@ -23,20 +23,19 @@ Bevor du startest, stelle sicher dass du:
 
 ### 2️⃣ ALARMiator Server installieren
 
-**Empfohlen (Docker Compose)**:
+**Empfohlen Installationsmethode**:
 - [Installation via Docker Compose](installation-des-servers-via-docker-compose)
-- Einfache Updates
+- Einfache Updates und Installation
 - Weniger Wartungsaufwand
 
 **Alternativ (Native Installation)**:
 - [Native Installation](installationalarmiator-servernativ)
-- Mehr Kontrolle
-- Für erfahrene Nutzer
+- Nur für erfahrene Nutzer
 
 ### 3️⃣ Netzwerk & SSL einrichten
 1. [Eigene Domain einrichten](eigenedomaineinrichten)
 2. [SSL-Zertifikate konfigurieren](installation-des-servers-via-docker-compose#ssl-zertifikate-installieren)
-3. [Nginx Proxy Manager absichern](nginx-proxy-manager-verschluesseln) (für VPS/Root-Server)
+3. [Nginx Proxy Manager absichern](nginx-proxy-manager-verschluesseln) (für VPS)
 
 ### 4️⃣ Grundeinstellungen vornehmen
 - [Erste Einstellungen nach Installation](erste-einstellungen-im-adminpanel-nach-der-installation)
@@ -45,8 +44,7 @@ Bevor du startest, stelle sicher dass du:
 - Berechtigungsgruppen anlegen
 
 ### 5️⃣ Stammdaten anlegen
-- [Übersicht Stammdaten](uebersicht-stammdatenanlegen)
-- Organisation → Standort → Gruppen → Mitglieder → Benutzer
+- [Organisation](eine-organisation-anlegen) → Standort → Gruppen → Mitglieder → Benutzer
 
 ### 6️⃣ Alarmierung aktivieren
 - [Übersicht Alarmierung](uebersicht-alarmierungen)
@@ -74,18 +72,6 @@ Bevor du startest, stelle sicher dass du:
 - [Email-Vorlagen anpassen](email-verarbeitung)
 - [Berechtigungen verwalten](berechtigungsgruppen-anlegen)
 
-## 🆘 Probleme?
-
-- [Docker Troubleshooting](dockertroubleshooting)
-- [Allgemeine Probleme](externeipadressewirdnichtaktualisiert)
-- [Community Forum](https://community.alarmiator.de)
-
-## 📚 Weiterführende Links
-
-- [ALARMiator ausprobieren (PROBIERiator)](alarmiator-probieren)
-- [Alternative Reverse Proxies](alternativereverseproxies)
-- [Von nativer zu Docker Compose migrieren](vonnativerinstallationzudockercomposemigrieren)
-
----
-
-**Tipp**: Arbeite die Schritte nacheinander ab und teste nach jedem Schritt, ob alles funktioniert. Bei Fragen hilft dir unsere [Community](https://community.alarmiator.de) gerne weiter!
+:::tip Tipp
+Arbeite die Schritte nacheinander ab und teste nach jedem Schritt, ob alles funktioniert. Bei Fragen hilft dir unsere [Community](https://community.alarmiator.de) gerne weiter!
+:::

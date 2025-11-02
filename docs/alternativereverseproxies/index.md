@@ -9,4 +9,4 @@ Hier werden Community Beiträge geteilt, welche ein alternatives Proxy Setup bes
 
 
 
-* [Caddy als Reverse Proxy](https://community.alarmiator.de/t/caddy-anstelle-von-nginx-proxy-manager/493/5) Großer Dank an Whoopsadaisy aus der Community für die Mühe!
+* [Caddy als Reverse Proxy](https://community.alarmiator.de/t/caddy-anstelle-von-nginx-proxy-manager/493/8) Großer Dank an Whoopsadaisy aus der Community für die Mühe!

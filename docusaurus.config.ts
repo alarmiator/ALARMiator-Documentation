@@ -29,7 +29,7 @@ const config: Config = {
           editUrl: 'https://github.com/alarmiator/ALARMiator-Documentation/edit/main/',
           sidebarCollapsible: true,
           showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },

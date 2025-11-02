@@ -43,7 +43,6 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Installation',
           items: [
-            'Getting Started/Übersicht-Erstinstallation',
             'installationraspberrypilinuxserver/index',
             'Docker/installationdesserversviadockercompose/index',
             'installationalarmiator-servernativ/index',
@@ -76,7 +75,6 @@ const sidebars: SidebarsConfig = {
       label: 'Stammdaten',
       collapsed: true,
       items: [
-        'Übersichten/uebersichtstammdatenanlegen/index',
         'eineorganisationanlegen/index',
         'einenstandortanlegen/index',
         'gruppenanlegen/index',
@@ -139,7 +137,6 @@ const sidebars: SidebarsConfig = {
       label: 'Inventar',
       collapsed: true,
       items: [
-        'Übersichten/inventar-uebersicht/index',
         'aprtsanlegen/index',
         'hydranteneintragen/index',
       ],

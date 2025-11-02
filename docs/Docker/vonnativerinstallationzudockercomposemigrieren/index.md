@@ -3,6 +3,8 @@ title: "Von Nativer Installation zu Docker Compose migrieren"
 slug: /vonnativerinstallationzudockercomposemigrieren
 ---
 
+import DockerCompose from '../../../docker-examples/dockercompose.mdx';
+
 # Von Nativer Installation zu Docker Compose migrieren
 
 Eine Installation mit Docker Compose bringt für dich als Administrator einige Vorteile bezüglich des Installationsaufwands und des Aufwands den es benötigt den Server upzudaten. Deshalb empfehlen wir ein natives Setup zu Docker Compose zu migrieren.
@@ -76,62 +78,7 @@ nano docker-compose.yml
 Kopiere folgenden Text in das File und speicher es ab:
 
 
-
-```
-networks:
-  alarmiator-network:
-    name: alarmiator-network
-    driver: bridge
-
-services:
-  alarmiator_service:
-    networks:
-      - alarmiator-network
-    restart: always
-    image: alarmiator/alarmiator
-    healthcheck:
-      test: curl --fail http://localhost:5000 || exit 1
-      interval: 20s
-      retries: 5
-      start_period: 600s
-      timeout: 10s
-    volumes:
-      - alarm-db:/alarmiatorserver/store
-      - alarm-katsys-uploads:/alarmiatorserver/plugins/inbound/katsys/uploads
-      - alarm-public-img:/alarmiatorserver/public/assets/img
-      - alarm-uploads:/alarmiatorserver/uploads
-      - alarm-logs:/alarmiatorserver/logs
-      - alarm-backups:/alarmiatorserver/backup
-  nginxProxyManager:
-    networks:
-      - alarmiator-network
-    image: 'jc21/nginx-proxy-manager:2.10.0'
-    restart: always
-    depends_on:
-      alarmiator_service:
-        condition: service_healthy
-    ports:
-      - '80:80'
-      - '81:81'
-      - '443:443'
-    healthcheck:
-      test: curl --fail http://localhost:81 || exit 1
-      interval: 20s
-      retries: 5
-      start_period: 10s
-      timeout: 10s
-    volumes:
-      - /nginx-pm/data:/data
-      - /nginx-pm/letsencrypt:/etc/letsencrypt
-
-volumes:
-  alarm-db:
-  alarm-katsys-uploads:
-  alarm-public-img:
-  alarm-uploads:
-  alarm-logs:
-  alarm-backups:
-```
+<DockerCompose/>
 
 
 
