@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'ALARMiator-Dokumentation',
   tagline: 'Zusatzalarmierung und Organisationsverwaltung',
-  favicon: 'img/alarmiator-logo.webp',
+  favicon: 'img/favicon.png',
 
   future: { v4: true },
   url: 'https://alarmiator.github.io',

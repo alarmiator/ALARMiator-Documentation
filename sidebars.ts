@@ -238,7 +238,6 @@ const sidebars: SidebarsConfig = {
           label: 'System',
           items: [
             'Seiten/protokollelogviewer/index',
-            'Seiten/email-verarbeitung/index',
             'Seiten/aufgaben-verwaltung/index',
             'Seiten/broadcast-nachricht/index',
           ],
