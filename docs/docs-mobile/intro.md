@@ -6,8 +6,8 @@ Die ALARMiator Mobile App ist für **iOS** und **Android** verfügbar und ermög
 
 ## 📱 Download
 
-- **Android**: [Android Download](https://alarmiator.de/download)
-- **iOS**: [IOS Download](https://alarmiator.de/download)
+- **Android**: [Download APK](https://alarmiator.de/download)
+- **iOS**: [Download im App Store](https://alarmiator.de/download)
 
 ## 🚀 Schnellstart
 
