@@ -1,0 +1,145 @@
+---
+title: "Getting Started - Legen wir los"
+slug: /gettingstarted
+---
+
+Diese Anleitung führt dich Schritt für Schritt durch die Einrichtung deines ALARMiator Servers.
+
+## 📋 Voraussetzungen
+
+<InfoBox type="info" title="Was du brauchst">
+Bevor du startest, stelle sicher dass du:
+- Einen **Raspberry Pi 4** (empfohlen) oder Linux-Server hast
+- Eine **stabile Internetverbindung** verfügbar ist
+- Grundkenntnisse in **SSH und Linux** mitbringst (hilfreich, aber nicht zwingend)
+
+→ [Detaillierte Systemanforderungen](/docs/systemanforderungen)
+</InfoBox>
+
+## 🎯 Installationsschritte
+
+<StepByStep>
+  <Step title="Hardware vorbereiten">
+    - [Raspberry Pi / Linux Server einrichten](/docs/installationraspberrypilinuxserver)
+    - Betriebssystem installieren
+    - Netzwerkverbindung herstellen
+  </Step>
+
+  <Step title="ALARMiator Server installieren">
+    <DocCardGrid>
+      <DocCard
+        title="Docker Compose (empfohlen)"
+        description="Einfache Installation und Updates"
+        to="/docs/installation-des-servers-via-docker-compose"
+        icon="🐳"
+      />
+      <DocCard
+        title="Native Installation"
+        description="Nur für erfahrene Nutzer!"
+        to="/docs/installationalarmiator-servernativ"
+        icon="⚙️"
+      />
+    </DocCardGrid>
+  </Step>
+
+  <Step title="Netzwerk & SSL einrichten">
+    1. [Eigene Domain einrichten](/docs/eigenedomaineinrichten)
+    2. [SSL-Zertifikate konfigurieren](installation-des-servers-via-docker-compose#ssl-zertifikate-installieren)
+    3. [Nginx Proxy Manager absichern](nginx-proxy-manager-verschluesseln) (für VPS)
+  </Step>
+
+  <Step title="Grundeinstellungen vornehmen">
+    - [Erste Einstellungen nach Installation](erste-einstellungen-im-adminpanel-nach-der-installation)
+    - [Adminbenachrichtigungen konfigurieren](einstellungen-admin)
+    - [Berechtigungsgruppen anlegen](/docs/berechtigungsgruppen-anlegen)
+  </Step>
+
+  <Step title="Stammdaten anlegen">
+    Jetzt legst du die organisatorischen Daten an:
+
+    [Übersicht Stammdaten](/docs/uebersicht-stammdatenanlegen)
+
+    Organisation → Standort → Gruppen → Mitglieder → Benutzer
+  </Step>
+
+  <Step title="Alarmierung aktivieren">
+    Richte die Alarmierung ein:
+
+    - [Übersicht Alarmierung](uebersicht-alarmierungen)
+    - [Alarmwege und -profile konfigurieren](alarmwegematrixeinstellen)
+    - [KatSys](katsyscloudconnector) oder andere Alarmquelle anbinden
+  </Step>
+
+  <Step title="Wallboard einrichten (optional)">
+    Optionaler Schritt für Alarmmonitore:
+
+    - [Übersicht Wallboard](/docs/uebersicht-wallboard)
+    - Raspberry Pi Zero als Wallboard-Client einrichten
+    - Widgets konfigurieren
+  </Step>
+
+  <Step title="Spaceport Client (optional)">
+    Für abgesetzte Standorte:
+
+    - [Übersicht Spaceport](/docs/uebersicht-spaceport)
+    - Abgesetzte Standorte anbinden
+  </Step>
+</StepByStep>
+
+## 🔄 Nach der Installation
+
+<DocCardGrid>
+  <DocCard
+    title="Backups erstellen"
+    description="Sichere deine Daten regelmäßig"
+    to="/docs/backupdeinesserverserstellen"
+    icon="💾"
+  />
+  <DocCard
+    title="Server aktualisieren"
+    description="Halte deinen Server auf dem neuesten Stand"
+    to="/docs/updatedesalarmiatorservers"
+    icon="🔄"
+  />
+  <DocCard
+    title="Plugins aktivieren"
+    description="Erweitere deinen Server mit Plugins"
+    to="/docs/plugins"
+    icon="🔌"
+  />
+  <DocCard
+    title="Email-Vorlagen anpassen"
+    description="Passe die Email-Vorlagen an deine Bedürfnisse an"
+    to="/docs/email-verarbeitung"
+    icon="📧"
+  />
+</DocCardGrid>
+
+## 🆘 Probleme?
+
+<InfoBox type="warning">
+Bei Problemen während der Installation findest du hier Hilfe:
+
+- [Docker Cheatsheet](/docs/dockertroubleshooting)
+- [Community Forum](https://community.alarmiator.de)
+</InfoBox>
+
+<RelatedLinks
+  title="📚 Weiterführende Links"
+  links={[
+    {
+      title: "Alternative Reverse Proxies",
+      to: "/docs/alternativereverseproxies",
+      description: "Andere Reverse Proxy Lösungen für deinen Server. Für erfahrene Nutzer!"
+    },
+    {
+      title: "Von nativer zu Docker Compose migrieren",
+      to: "/docs/vonnativerinstallationzudockercomposemigrieren",
+      description: "Migrationsanleitung für bestehende Installationen"
+    }
+  ]}
+/>
+
+<InfoBox type="tip">
+**Tipp**: Arbeite die Schritte nacheinander ab und teste nach jedem Schritt, ob alles funktioniert. Bei Fragen hilft dir unsere [Community](https://community.alarmiator.de) gerne weiter!
+</InfoBox>

@@ -1,0 +1,200 @@
+---
+title: "Übersicht Wallboard"
+slug: /uebersicht-wallboard
+---
+
+Mit Wallboards kannst du Alarmmonitore für deine Wache / Fahrzeughalle usw. einrichten. Diese zeigen im Bereitschaftsmodus wichtige Informationen an und wechseln im Alarmfall automatisch in den Alarmmodus.
+
+<InfoBox type="info">
+Ein Wallboard ist ein Bildschirm, der dauerhaft Informationen anzeigt. Im Alarmfall wird automatisch auf die Einsatzdetails umgeschaltet. Du kannst so viele Wallboards anlegen wie du möchtest.
+</InfoBox>
+
+## 🚀 Schnellstart
+
+<DocCardGrid cols={3}>
+  <DocCard
+    title="Einführung"
+    description="Lerne die Grundlagen von Wallboards kennen"
+    to="wallboards-einfuehrung"
+    icon="📖"
+  />
+  <DocCard
+    title="Hardware Setup"
+    description="Raspberry Pi als Wallboard-Client einrichten"
+    to="installation-auf-basis-raspberry-pi-zero-w2"
+    icon="🖥️"
+  />
+  <DocCard
+    title="Wallboard Builder"
+    description="Widgets und Ansichten konfigurieren"
+    to="wallboard-builder"
+    icon="🎨"
+  />
+</DocCardGrid>
+
+## 📋 Einrichtung Schritt für Schritt
+
+<StepByStep>
+  <Step title="Hardware vorbereiten">
+    Richte einen Raspberry Pi oder einen anderen Client als Wallboard-Display ein.
+
+    → [Installation Raspberry Pi Zero W2](installation-auf-basis-raspberry-pi-zero-w2)
+  </Step>
+
+  <Step title="Grundlagen verstehen">
+    Mache dich mit dem Wallboard-Konzept vertraut.
+
+    → [Wallboard Einführung](wallboards-einfuehrung)
+  </Step>
+
+  <Step title="Plugins aktivieren">
+    Aktiviere im Admin-Bereich die erforderlichen Plugins:
+
+    - **REST-API Plugin** - Grundlegende API-Funktionen
+    - **Wallboard Plugin** - Wallboard-Funktionalität
+
+    → [Plugins verwalten](plugins)
+  </Step>
+
+  <Step title="Wallboard konfigurieren">
+    Erstelle ein neues Wallboard und konfiguriere die Grundeinstellungen.
+
+    → [Wallboard konfigurieren](wallboard-konfiguration)
+  </Step>
+
+  <Step title="Schleifen anlegen">
+    Lege Alarmschleifen an, um Alarme mit dem Wallboard zu verbinden.
+
+    → [Schleifen anlegen](schleifenanlegen)
+  </Step>
+
+  <Step title="Widgets konfigurieren">
+    Gestalte dein Wallboard mit dem Wallboard Builder.
+
+    → [Wallboard Builder](wallboard-builder)
+  </Step>
+</StepByStep>
+
+## 🎨 Bereitschaftsmodus Widgets
+
+Diese Widgets werden angezeigt, wenn kein Alarm aktiv ist:
+
+<DocCardGrid cols={3}>
+  <DocCard
+    title="Logo"
+    description="Dein Organisations-Logo"
+    to="logo"
+    icon="🖼️"
+  />
+  <DocCard
+    title="Uhrzeit & Datum"
+    description="Aktuelle Zeit und Datum"
+    to="uhrzeitdatum"
+    icon="🕐"
+  />
+  <DocCard
+    title="Wetter"
+    description="Aktuelle Wetterinformationen"
+    to="aktuelleswetter"
+    icon="🌤️"
+  />
+  <DocCard
+    title="Kalender"
+    description="Anstehende Termine"
+    to="kalender-liste"
+    icon="📅"
+  />
+  <DocCard
+    title="Einsatzmittel Status"
+    description="Verfügbarkeit der Fahrzeuge"
+    to="einsatzmittel-status"
+    icon="🚒"
+  />
+  <DocCard
+    title="Lauftext"
+    description="Wichtige Hinweise als Ticker"
+    to="lauftextmarquee"
+    icon="📝"
+  />
+</DocCardGrid>
+
+
+## 🚨 Alarmmodus Widgets
+
+Diese Widgets werden im Alarmfall angezeigt:
+
+<DocCardGrid cols={3}>
+  <DocCard
+    title="Einsatzstichwort"
+    description="Alarmstichwort prominent anzeigen"
+    to="alarmierungsstichwort"
+    icon="🚨"
+  />
+  <DocCard
+    title="Adresse"
+    description="Einsatzort anzeigen"
+    to="adresse"
+    icon="📍"
+  />
+  <DocCard
+    title="Karte"
+    description="Einsatzstelle auf Karte"
+    to="karteeinsatzstelle"
+    icon="🗺️"
+  />
+  <DocCard
+    title="Disponent"
+    description="Mitteilung der Leitstelle"
+    to="mitteilungdisponent"
+    icon="💬"
+  />
+  <DocCard
+    title="Rückmeldungen"
+    description="Wer kommt zum Einsatz?"
+    to="rckmeldungenzuralarmierung"
+    icon="✅"
+  />
+  <DocCard
+    title="Einsatzzeit"
+    description="Zeit seit Alarmierung"
+    to="zeitseitalarmierungalslaufendeuhr"
+    icon="⏱️"
+  />
+</DocCardGrid>
+
+## 🔧 Erweiterte Features
+
+<DocCardGrid>
+  <DocCard
+    title="Bewegungsmelder"
+    description="Automatisches Aufwecken des Displays"
+    to="installationseinesbewegungsmelders"
+    icon="👁️"
+  />
+  <DocCard
+    title="Allgemeine Einstellungen"
+    description="Feinabstimmung des Wallboards"
+    to="allgemeine-einstellungen"
+    icon="⚙️"
+  />
+</DocCardGrid>
+
+<InfoBox type="tip">
+**Tipp**: Beginne mit einem einfachen Layout und erweitere es schrittweise. Du kannst jederzeit Widgets hinzufügen oder entfernen.
+</InfoBox>
+
+<RelatedLinks
+  title="🚀 Nächste Schritte"
+  links={[
+    {
+      title: "Alarmierung einrichten",
+      to: "uebersicht-alarmierungen",
+      description: "Richte die Alarmierung ein, um das Wallboard zu nutzen"
+    },
+    {
+      title: "Stammdaten anlegen",
+      to: "uebersicht-stammdatenanlegen",
+      description: "Lege zuerst die Grunddaten an"
+    }
+  ]}
+/>

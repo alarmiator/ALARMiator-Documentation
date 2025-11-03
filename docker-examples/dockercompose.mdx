@@ -1,4 +1,4 @@
-```yaml
+```yml
 networks:
   alarmiator-network:
     name: alarmiator-network
@@ -26,15 +26,15 @@ services:
   nginxProxyManager:
     networks:
       - alarmiator-network
-    image: 'jc21/nginx-proxy-manager:2.10.0'
+    image: jc21/nginx-proxy-manager:2.10.0
     restart: always
     depends_on:
       alarmiator_service:
         condition: service_healthy
     ports:
-      - '80:80'
-      - '81:81'
-      - '443:443'
+      - 80:80
+      - 81:81
+      - 443:443
     healthcheck:
       test: curl --fail http://localhost:81 || exit 1
       interval: 20s
