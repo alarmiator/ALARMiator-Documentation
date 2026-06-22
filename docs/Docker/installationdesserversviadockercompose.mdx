@@ -384,7 +384,7 @@ Nach Änderung deiner Login Daten solltest du folgendes sehen:
 Klicke auf „SSL Certificates“ dann auf „Add SSL Certificate“:
 
 
-![](/img/image-1.png)
+![](/img/ssl-cert-request.png)
 
 
 
@@ -433,7 +433,7 @@ Hier müssen wir nun eintragen wie unser Proxy auf den ALARMiator Server weiterl
 **WICHTIG: Es muss "alarmiator\_service" als hostname angegeben sein. Dieser ist in unserer compose.yml so genannt worden und muss auch hier übereinstimmen. Zusätzlich darf der hostname von eurem Server nicht identisch sein. Habt ihr also euren Docker Host als ihr Linux installiert habt "alarmiator\_service" genannt solltet ihr in der oben angegeben docker-compose-yml alle Vorkommnisse von alarmiator\_service zu etwas anderem ändern und logischer Weise auch im Nginx Proxy Manager diesen neuen Namen verwenden.**
 
 
-![](/img/image-2.png)
+![](/img/reverse-proxy-main-location-nginxpm.png)
 
 
 
@@ -444,7 +444,7 @@ Ersetze hier natürlich die Domain Names mit deiner Domain. Den Rest kannst du 1
 Klicke nun auf den Custom Locations Tab. Klicke auf Add Location um eine neue Weiterleitung einzufügen:
 
 
-![](/img/image-3.png)
+![](/img/custom-locations-tab.png)
 
 
 
@@ -466,7 +466,7 @@ Das ist einmal die Weiterleitung für das Wallboard und als zweites die Weiterle
 Wähle nun noch dein Zertifikat im SSL Tab aus.
 
 
-![](/img/image-6.png)
+![](/img/select-ssl-for-proxy-host.png)
 
 
 
