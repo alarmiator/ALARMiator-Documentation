@@ -26,7 +26,7 @@ services:
   nginxProxyManager:
     networks:
       - alarmiator-network
-    image: jc21/nginx-proxy-manager:2.10.0
+    image: jc21/nginx-proxy-manager:2.16.0
     restart: always
     depends_on:
       alarmiator_service:

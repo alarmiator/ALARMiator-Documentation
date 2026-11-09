@@ -229,6 +229,12 @@ In dieses Editor Fenster kopierst du folgenden Text:
 
 <DockerCompose/>
 
+:::warning Nginx Proxy Manager aktualisieren
+Wenn du eine bestehende Installation aktualisierst, sichere vorher `/nginx-pm/data` und `/nginx-pm/letsencrypt`. Die zuvor dokumentierte Version `2.10.0` wird upstream nicht mehr unterstützt und liegt im von [CVE-2026-40519](https://github.com/advisories/GHSA-4pgp-q8h4-9wxm) betroffenen Bereich.
+
+Nginx Proxy Manager `2.16.0` aktualisiert unter anderem Certbot. Falls du DNS-Challenges bzw. DNS-Plugins verwendest, prüfe nach dem Upgrade die Plugin-Abhängigkeiten; upstream weist hier auf mögliche Anpassungen hin. Siehe die [Release Notes zu 2.16.0](https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.16.0).
+:::
+
 
 
 Dieser Text sagt Docker wie er unseren Alarmiator Server zum laufen bringen soll. Das erspart uns jegliche weitere manuelle Installation.
