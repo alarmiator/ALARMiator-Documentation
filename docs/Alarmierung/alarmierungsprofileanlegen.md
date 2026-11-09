@@ -5,30 +5,18 @@ slug: /alarmierungsprofileanlegen
 
 # Alarmierungsprofile anlegen
 
-Die Alarmierungsweiterleitung wird über die Alarmierungsregeln gesteuert. Hier steuerst du welche Gruppen wann alarmiert werden.
+Die Alarmierungsweiterleitung wird über die Alarmierungsprofile gesteuert. Hier steuerst du welche Gruppen wann alarmiert werden.
 
+Navigiere zu **Alarmierung → Alarmierungsprofile**. Du solltest folgende Seite sehen:
 
+![Alarmierungsprofile](/img/ui/alarmierung/profile-liste.png)
 
-Navigiere zu Alarmierung  Alarmierungsprofile. Du solltest folgende Seite sehen:
+Um ein eigenes Profil zu erstellen klickst du oben rechts auf **+ Neu**. Im ersten Schritt vergibst du einen Titel, wählst die Organisation, den Alarmierungstyp (kritische oder Info-Alarmierung) und setzt den Status auf **Aktiv**.
 
+![Alarmierungsprofil anlegen](/img/ui/alarmierung/profil-anlegen.png)
 
-![](/img/image-40-1024x207.png)
+Unter **Regelparameter** legst du fest, bei welchem Schleifencode das Profil greift. Im Schritt **Gruppen** wählst du die Gruppen, die dann alarmiert werden, im Schritt **Einsatzmittelgruppen** die Einsatzmittelgruppen.
 
+![Gruppen des Alarmierungsprofils](/img/ui/alarmierung/profil-gruppen.png)
 
-
-Hier wurde bereits beispielhaft eine aktive Probealarmierungsregel eingerichtet.
-
-
-
-Um eine eigene Alarmierungsregel zu erstellen klickst du oben rechts auf das blaue Plus.
-
-
-![](/img/image-42-1024x790.png)
-
-
-
-Hier wurde eine Regel anlegt, die alle Mitglieder der "Mustergruppe" in Organisation 1 und Organisation 2 alarmiert, wenn der Schleifencode der Alarmierung "XXXX" enthält. Sie wurde oben auf aktiv gesetzt.
-
-
-
-Du hast nun, eine Alarmierungsregel angelegt, nach der entschieden wird, welche Gruppen alarmiert werden.
+Du hast nun ein Alarmierungsprofil angelegt, nach dem entschieden wird, welche Gruppen alarmiert werden.

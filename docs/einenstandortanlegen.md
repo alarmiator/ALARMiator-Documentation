@@ -5,15 +5,10 @@ slug: /einen-standort-anlegen
 
 # Einen Standort anlegen
 
-Navigiere zu Stammdaten  Standorte und klicke auf das blaue + Symbol.
+Navigiere zu **Stammdaten → Standorte** und klicke auf **+ Neu**.
 
+![Standort anlegen](/img/ui/stammdaten/standort-anlegen.png)
 
+Vergib einen **Namen** und wähle die **Organisation**, zu der der Standort gehört.
 
-Es öffnet sich folgendes Fenster:
-
-
-![Standorte Erstellungsmenü](/img/image-19-1024x563.png)
-
-
-
-Nach dem Eintragen der Addresse, werden durch klicken auf „Koordinaten aktualisieren“ die Koordinaten für die Addresse automatisch eingetragen.
+Nach dem Eintragen der Adresse werden durch Klicken auf "Koordinaten aktualisieren" die Koordinaten für die Adresse automatisch eingetragen. Du kannst sie auch per Klick auf die Standortkarte setzen.

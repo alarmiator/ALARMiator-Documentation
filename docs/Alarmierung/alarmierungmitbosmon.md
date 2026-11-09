@@ -5,7 +5,7 @@ slug: /alarmierung-mit-bosmon
 
 # Alarmierung mit BosMon
 
-BosMon ist eininnovativesProgramm zum Dekodieren von **ZVEI**, **FMS**und **Pocsag**Telegrammen. BosMon übernimmt also die Dekodierung der Alarmierungsdaten von Funkmeldern und kann diese dann an ALARMiator weiterreichen. ALARMiator nutzt die eingehenden Alarmierungsdaten, legt eine Alarmierung an und verarbeitet sie dann nach den konfigurierten Regeln.
+BosMon ist eininnovativesProgramm zum Dekodieren von **ZVEI**, **FMS**und **Pocsag**Telegrammen. BosMon übernimmt also die Dekodierung der Alarmierungsdaten von Funkmeldern und kann diese dann an ALARMiator weiterreichen. ALARMiator nutzt die eingehenden Alarmierungsdaten, legt eine Alarmierung an und verarbeitet sie dann nach den konfigurierten Regeln.
 
 
 
@@ -21,24 +21,23 @@ ALARMiator bietet eine sog. REST-API, die es Drittanwendungen erlaubt Alarmierun
 
 
 
-Melde Dich mit einem Benutzer mit Administrations-Berechtigung an der ALARMiator Oberfläche an. Navigiere in den **Admin-Bereich** in der oberen Menüleiste und dann im Menü auf der linken Seite in den Bereich "**API-Tokens**". Klappe den Menübereich auf und klicke auf "**neu anlegen**".
+Melde Dich mit einem Benutzer mit Administrations-Berechtigung an der ALARMiator Oberfläche an. Navigiere zu **Admin → API-Token** und klicke auf **+ Neu**. Klappe den Menübereich auf und klicke auf "**neu anlegen**".
 
 
-![](/img/Bildschirmfoto-2021-10-09-um-10.54.23.png)
-
-
-
-In dem nun dargestellten Formular vergibst Du einen sprechenden **Titel für den Einsatzzweck** des Tokens. Dieser Titel wird Dir zukünftig in allen Listen zur Identifizierung des API-Tokens angezeigt. Belasse den **Token-Typ** bei **API-Zugriff** und speichere das Formular.
-
-
-![](/img/Bildschirmfoto-2021-10-09-um-10.56.53-1024x373.png)
+![API-Token](/img/ui/alarmierung/api-token-liste.png)
 
 
 
-Nach dem speichern findest Du das neu erstelle Token in der Liste der API-Tokens. Die graue Schaltfläche erlaubt Dir das kopieren des Tokens in die Zwischenablage Deines Browsers. Das Token benötigst Du für die folgende Konfiguration innerhalb BosMon.
+In dem nun dargestellten Formular vergibst Du eine sprechende **Beschreibung** für den Einsatzzweck des Tokens. Diese wird Dir zukünftig in allen Listen zur Identifizierung des API-Tokens angezeigt. Wähle als **Typ** **API Access** und speichere das Formular.
 
 
-![](/img/Bildschirmfoto-2021-10-09-um-10.59.40-1024x65.png)
+![API-Token anlegen](/img/ui/alarmierung/api-token-anlegen.png)
+
+
+
+Nach dem speichern findest Du das neu erstelle Token in der Liste der API-Tokens. Über die Schaltfläche in der Zeile des Tokens kannst Du es kopieren, und zwar in die Zwischenablage Deines Browsers. des Tokens in die Zwischenablage Deines Browsers. Das Token benötigst Du für die folgende Konfiguration innerhalb BosMon.
+
+
 
 
 

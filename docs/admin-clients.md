@@ -9,7 +9,7 @@ Unsere abgesetzte Clients heißen Spaceport. Wie man einen Spaceport einrichtet 
 
 
 
-Unter Clients findest du jeweils eine Seite mit einer Liste deiner Clients und deren Jobs:
+Unter **Admin → Spaceport-Clients** findest du eine Liste deiner Clients, unter **Admin → Spaceport-Druckaufträge** deren Jobs:
 
 
-![](/img/image-6.png)
+![Spaceport-Clients](/img/ui/admin/spaceport-clients.png)

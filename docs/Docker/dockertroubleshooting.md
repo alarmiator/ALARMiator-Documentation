@@ -45,7 +45,7 @@ Docker lässt auf deinem System sogenannte Container laufen. Diese sind für den
 
 
 
-Du kannst dir deine Logs im Web-UI unter Administration  Protokolle  Download herunterladen.
+Du kannst dir deine Logs im Web-UI unter **Admin → Log-Dateien** herunterladen.
 
 
 

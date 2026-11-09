@@ -5,11 +5,8 @@ slug: /terminkategorienanlegen
 
 # Terminkategorien anlegen
 
-Navigiere zu Termine  Kategorien . Klicke oben rechts auf das blaue Plus Icon.
+Navigiere zu **Termine → Terminkategorien**. Klicke oben rechts auf **+ Neu**.
 
+![Terminkategorie anlegen](/img/ui/termine/kategorie-anlegen.png)
 
-![](/img/image-28-1024x473.png)
-
-
-
-Hier vergibst du den Kategorientitel und stellst die gewünschten Farben ein.
+Hier vergibst du den Titel und stellst im Schritt **Farben** die gewünschten Farben ein.

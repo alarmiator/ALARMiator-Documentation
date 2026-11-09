@@ -141,37 +141,23 @@ Nutzt man den Spaceport Client in einem externen Netz, sollte man die SSL Versch
 
 ### API Token erstellen
 
+Das Api Token kannst du auf dem ALARMiator Server erstellen. Logge dich also im Adminpanel ein.
 
+Um ein API Token zu erstellen, navigiere zu **Admin → API-Token** und klicke auf **+ Neu**. Hier dann eine Beschreibung vergeben und als **Typ** **Spaceport Client** auswählen und **Speichern**.
 
-Das Api Token musst du auf dem Alarmiator Server erstellen. Logge dich also im Adminpanel ein.
+![API-Token anlegen](/img/ui/spaceport/api-token.png)
 
-
-
-Um einen API Token zu erstellen, muss im Admin Bereich auf den Menüpunkt **API Token** und **neu anlegen** klicken. Hier dann einen Namen vergeben und als Token-Typ **ALARMiator Agent** auswählen und **Speichern**.
-
-
-![](/img/Bildschirmfoto-2022-05-14-um-18.04.25-1024x575.png)
-
-
-
-Das neu erstellte Token dann auf der Konfigurationsseite eintragen.
-
-
+Das neu erstellte Token dann auf der Konfigurationsseite des Spaceports eintragen.
 
 ### Client anlegen
 
+Der Client muss auf dem ALARMiator Server angelegt werden. Navigiere zu **Admin → Spaceport-Clients** und klicke auf **+ Neu**. Hier den **Einsatzzweck** angeben, **Organisation** und **Standort** auswählen und speichern. Als **API-Token** kannst du das eben angelegte Token wählen. Lässt du das Feld leer, wird ein neues Token erzeugt.
 
+![Spaceport-Client anlegen](/img/ui/spaceport/client-anlegen.png)
 
-Das Client musst du auf dem Alarmiator Server erstellen. Logge dich also im Adminpanel ein.
+In den weiteren Schritten stellst du Alarmgruppen, Drucker und MQTT ein. Die Clients siehst du anschließend in der Liste, die Druckaufträge unter **Admin → Spaceport-Druckaufträge**.
 
-
-
-Für den Client muss auch noch Token erstellt werden. Dazu im Admin Bereich auf den Menüpunkt **Client** und **neu anlegen** klicken. Hier den **Einsatzzweck** angeben, das angelegte **API Token**, den **Standort** und die **Organisation** auswählen und speichern.
-
-
-![](/img/Bildschirmfoto-2022-05-14-um-18.11.26-1024x699.png)
-
-
+![Spaceport-Clients](/img/ui/spaceport/clients-liste.png)
 
 ### Spaceport Plugin aktivieren
 

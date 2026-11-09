@@ -5,7 +5,9 @@ slug: /notfallkontakteintragen
 
 # Notfallkontakt Eintragen
 
-Innerhalb des Stammdatensatzes eines Mitglieds kannst Du einen Notfallkontakt für das Mitglied verwalten (optional).
+Innerhalb des Stammdatensatzes eines Mitglieds kannst Du einen Notfallkontakt für das Mitglied verwalten (optional). Du findest ihn beim Anlegen im Schritt **Notfallkontakt**, in der Detailansicht im gleichnamigen Reiter.
+
+![Schritt Notfallkontakt](/img/ui/stammdaten/mitglied-anlegen-notfallkontakt.png)
 
 
 
@@ -17,11 +19,11 @@ Für einen Notfallkontakt können folgende Daten erfasst werden
 | Feld | Beispiel |
 | --- | --- |
 | Name | Maxine Musterfrau |
-| Beziehung zu Mitglied (Auswahl) | Ehefrau |
+| Beziehung zum Mitglied (Auswahl) | Ehepartner/Lebensgefährte |
 | Mobiltelefon | +49 151 2345678 |
 | Telefon | +49 9151 123456 |
-| Email-Adresse | maxine@musterfrau.de |
-| Information bei Alarmierung per Email (ja/nein) | Ja |
+| E-Mail-Adresse | maxine@musterfrau.de |
+| Bei Alarmierung informieren (ja/nein) | Ja |
 
 
 

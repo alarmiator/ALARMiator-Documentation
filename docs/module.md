@@ -10,3 +10,5 @@ ALARMiator ist in Module aufgeteilt. Module decken dabei einen bestimmten Aufgab
 
 
 Module können in der Benutzerverwaltung einzeln zugänglich gemacht werden. So ist es möglich, einzelnen Benutzern Zugang zu nur den von ihnen benötigten Modulen zu geben.
+
+Die Module findest du im Hauptmenü oben: Admin, Stammdaten, Alarmierung, Wallboards, Einsatz, Termine, Inventar, Ausbildung, Ehrungen, Berichte und Atemschutz. Welche davon du siehst, hängt von deinen Berechtigungen ab.

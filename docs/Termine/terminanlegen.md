@@ -5,19 +5,10 @@ slug: /terminanlegen
 
 # Termin anlegen
 
-Navigiere zu Termine  Termine. Klicke oben rechts auf das blaue Plus.
+Navigiere zu **Termine → Terminliste**. Klicke oben rechts auf **+ Neu**.
 
+![Termin anlegen](/img/ui/termine/termin-anlegen.png)
 
-![](/img/image-36-699x1024.png)
+Hier wurde beispielhaft ein Termin angelegt. Das Formular hat mehrere Schritte: Neben den grundlegenden Informationen legst du Kategorie und Verantwortung fest, kannst die Sichtbarkeit auf bestimmte Gruppen oder Organisationen einschränken, Einstellungen für das Wallboard vornehmen und eine Rückmeldung der Mitglieder anfordern.
 
-
-
-Hier wurde Beispielhaft ein Termin angelegt.
-
-
-
-Bei der Uhrzeit muss ein AM oder PM dahinter angegeben werden.
-
-
-
-Wählst du eine Einschränkung aus und möchtest Sie wieder aufheben kannst du rechts den Haken im Auswahlmenü entfernen.
+Wählst du eine Einschränkung aus und möchtest sie wieder aufheben, kannst du im Auswahlmenü den Haken wieder entfernen.

@@ -5,28 +5,10 @@ slug: /endgeraet-aktivieren
 
 # Endgeräte aktivieren
 
-Damit ein Mitglied eine Alarmierung empfangen kann, musst du zuerst sein Endgerät freischalten. Standardmäßig wird das erste Endgerät eines neuen Nutzers automatisch freigeschalten. Alle weiteren Endgeräte müssen manuell erlaubt werden. Endgeräte sind nach der ersten Anmeldung in der ALARMiator Mobile App am Server registriert und aktivierbar oder deaktivierbar.
+Damit ein Mitglied eine Alarmierung empfangen kann, musst du zuerst sein Endgerät freischalten. Standardmäßig wird das erste Endgerät eines neuen Nutzers automatisch freigeschaltet. Alle weiteren Endgeräte müssen manuell erlaubt werden.
 
+Navigiere zu **Alarmierung → Endgeräte**. Du solltest folgendes sehen:
 
+![Endgeräte](/img/ui/alarmierung/endgeraete.png)
 
-Navigiere zu Alarmierung  Endgeräte. Du solltest folgendes sehen:
-
-
-![](/img/image-38-1024x214.png)
-
-Grün = deaktiviert
-
-
-
-
-Um das Endgerät zu aktivieren klicke auf den grünen Button. Grün heißt deaktiviert. Der Button sollte danach gelb sein. Das bedeutet, dass das Endgerät aktiviert ist.
-
-
-![](/img/image-39-1024x213.png)
-
-Gelb = aktiviert
-
-
-
-
-Nun hast du das Endgerät deines Mitglieds aktiviert und Alarmierungen können über dieses Endgerät empfangen werden.
+In der Spalte **Status** siehst du, ob ein Endgerät **Aktiv** oder **Inaktiv** ist. Über die Filter oben kannst du nur inaktive Geräte anzeigen. Um ein Endgerät zu aktivieren klicke in seiner Zeile auf das Schalter-Symbol. Danach steht der Status auf **Aktiv**, und Alarmierungen können über dieses Endgerät empfangen werden.

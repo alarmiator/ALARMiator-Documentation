@@ -33,9 +33,13 @@ Ausgehende Plugins stellen die Gegenseite zu den eingehenden Plugins dar. Ausgeh
 
 
 
-Innerhalb des Admin-Modules in der Weboberfläche können einzelne Plugins aktiviert / deaktiviert und auch konfiguriert werden. Plugins bieten dabei jeweils ihre eigene spezifische Konfiguration an. Ein EMail-Versand Plugin benötigt andere Konfigurationswerte wie ein MQTT-Plugin.
+Unter **Admin → Plugins** können einzelne Plugins aktiviert / deaktiviert und auch konfiguriert werden. Plugins bieten dabei jeweils ihre eigene spezifische Konfiguration an. Ein EMail-Versand Plugin benötigt andere Konfigurationswerte wie ein MQTT-Plugin.
 
 
+
+![Plugin-Liste](/img/ui/admin/plugins.png)
+
+Über die Reiter **Eingehend** und **Ausgehend** wechselst du zwischen den beiden Plugin-Arten. Mit dem Stift konfigurierst du ein Plugin, mit Play bzw. Stop aktivierst oder deaktivierst du es.
 
 ## Plugins selber entwickeln
 

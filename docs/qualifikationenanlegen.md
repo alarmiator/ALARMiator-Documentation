@@ -5,16 +5,9 @@ slug: /qualifikationen-anlegen
 
 # Qualifikationen anlegen
 
-Navigiere zu Stammdaten  Qualifikationen und klicke auf das blaue + Symbol.
+Navigiere zu **Stammdaten → Qualifikationen** und klicke auf **+ Neu**.
 
-
-
-Es öffnet sich folgendes Fenster:
-
-
-![](/img/image-27-1024x753.png)
-
-
+![Qualifikation anlegen](/img/ui/stammdaten/qualifikation-anlegen.png)
 
 Qualifikationen können Mitgliedern zugeordnet werden im jeweiligen Stammdateneintrag eines Mitglieds.
 
@@ -24,7 +17,7 @@ Im Modul Zusatzalarmierung werden Qualifikationen verwendet, um bei Einsatzrück
 
 
 
-Zudem kann im Reporting eine Übersicht der Qualifikationen der gesamten Mannschaft erstellt werden. Zeitlich begrenzte Qualifikationen sind bspw. "Atemschutgeräteträger", da diese Qualifikation an der Widererlangung einer Tauglichkeit hängt.
+Zudem kann im Reporting eine Übersicht der Qualifikationen der gesamten Mannschaft erstellt werden. Zeitlich begrenzte Qualifikationen sind bspw. "Atemschutzgeräteträger", da diese Qualifikation an der Wiedererlangung einer Tauglichkeit hängt.
 
 
 
@@ -32,12 +25,10 @@ ALARMiator kommt mit einer Reihe von vordefinierten Qualifikationen, die Du vom 
 
 
 
-In das Feld **Name** gibst Du den Namen der Qualifikation ein, wie Du ihn in Listen und Auswertungen sehen möchtest.
+Im Feld **Name** gibst du den Namen der Qualifikation ein, wie du ihn in Listen und Auswertungen sehen möchtest.
 
+Im Feld **Kürzel** trägst du ein Kürzel ein, so wie die Qualifikation innerhalb der App oder auf einem Wallboard angezeigt werden soll. Dieses Kürzel sollte nicht mehr als 5 Zeichen (besser 3) haben, damit es in Tabellen gut erkennbar ist. Mit **Hintergrundfarbe** und **Schriftfarbe** bestimmst du, wie es dargestellt wird.
 
+Aktiviere **Zeitlich begrenzt** für Qualifikationen, die regelmäßig neu erlangt werden müssen, und weise unten direkt Mitglieder zu.
 
-Im Feld **Kurzname** trägst Du ein Kürzel ein, so wie die Qualifikation innerhalb der App oder auf einem Wallboard angezeigt werden soll. Dieses Kürzel sollte nicht mehr als 5 Zeichen (besser 3) haben, damit es in Tabellen gut erkennbar ist.
-
-
-
-Wenn Du alle Eingaben getätigt hast, speichere Deine Änderungen bitte mit einem Klick auf die Schaltfläche **speichern** ab.
+Wenn du alle Eingaben getätigt hast, klicke auf **Speichern**.

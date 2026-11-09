@@ -5,11 +5,8 @@ slug: /aufgaben-verwaltung
 
 # Aufgaben-Verwaltung
 
-In der Aufgaben-Verwaltung siehst du eine Übersicht der wiederkehrenden Aufgaben
+Unter **Admin → Aufgabenverwaltung** siehst du eine Übersicht der wiederkehrenden Aufgaben, mit letzter und nächster Ausführung.
 
+![Aufgabenverwaltung](/img/ui/admin/aufgabenverwaltung.png)
 
-![](/img/image-12-1024x421.png)
-
-
-
-Du siehst hier eine Aufgabe "Test" das ist ein zeitgesteuerter Probealarm. Da dieser Wiederkehrend ist wird er hier aufgelistet. Du kannst hier auch wiederkehrende Aufgaben deaktivieren wir empfehlen jedoch die voreingestellten Aufgaben (diese sind nicht änderbar) aktiv zu lassen.
+Eine zeitgesteuerter Probealarm wird hier als Aufgabe vom Typ "Probealarm" aufgelistet. Du kannst wiederkehrende Aufgaben pausieren und wieder starten, wir empfehlen jedoch die voreingestellten Aufgaben (Typ "Allgemein", diese sind nicht änderbar) aktiv zu lassen. Eigene Aufgaben kannst du über **+ Neu** anlegen, bearbeiten und löschen.

@@ -5,7 +5,7 @@ slug: /grundeinstellungen
 
 # Grundeinstellungen
 
-Hier legst Du grundlegende Einstellungen zu Deiner ALARMiator-Installation fest.
+Unter **Admin → Server-Konfiguration** legst Du grundlegende Einstellungen zu Deiner ALARMiator-Installation fest. Nach Änderungen klickst Du unten auf **Speichern**.
 
 
 
@@ -86,18 +86,11 @@ Für aktiv genutzte Systeme sollte "Produktivsystene" genutzt werden, diese sind
 
 
 
-## **Weboberfläche**
+## **SSL-Einstellungen**
 
+### **Pfad Speicherort SSL-Zertifikate**
 
-
-### **Datenschutzeinstellungen**
-
-
-
-Wähle hier, ob die Weboberfläche unverschlüsselt (http), verschlüsselt und unverschlüsselt oder nur verschlüsselt abgerufen werden kann.
-
-
-
+Hier legst Du das Verzeichnis fest, in dem ALARMiator nach den zu verwendenden SSL-Zertifikaten sucht.
 
 ## **ILS-Einstellungen**
 
@@ -170,12 +163,11 @@ Anzahl in Tagen in der Zukunft, für die auslaufende G26.3 überprüft werden. D
 
 ## Mitglieder-Avatar-Einstellungen
 
+Hier wählst Du die maximale Breite und Höhe eines Mitgliederbildes. Wird ein größeres Bild ausgewählt, wird dies automatisch runter skaliert.
 
+## Organisations-Avatar-Einstellungen
 
-Hier wählst du die maximale Größe eines Organisationswappens. Wird ein größeres Bild ausgewählt, wird dies automatisch runter skaliert.
-
-
-
+Hier wählst Du die maximale Breite und Höhe eines Organisationswappens. Wird ein größeres Bild ausgewählt, wird dies automatisch runter skaliert.
 
 ## Logfiles-Einstellungen
 

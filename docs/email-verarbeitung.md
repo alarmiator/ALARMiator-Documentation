@@ -3,43 +3,27 @@ title: "Email-Verarbeitung"
 slug: /email-verarbeitung
 ---
 
-# Email-Verarbeitung
+# E-Mail-Verarbeitung
 
 ## Warteschlange
 
+Unter **Admin → E-Mail-Warteschlange** siehst du, welche E-Mails versandt wurden oder noch ausstehend sind. Über die Filter oben kannst du nach dem Status (wartet auf Versand, versendet, nicht zugestellt) filtern. Nicht zugestellte E-Mails kannst du erneut senden, mit dem Auge siehst du eine Vorschau.
 
-
-Hier siehst du welche Emails versandt wurden oder noch ausstehend sind.
-
-
-![](/img/image-8-1024x272.png)
-
-
-
+![E-Mail-Warteschlange](/img/ui/admin/email-warteschlange.png)
 
 ## Vorlagen
 
+Unter **Admin → E-Mail-Vorlagen** kannst du die E-Mail-Vorlagen anpassen, die bei bestimmten Events verschickt werden, wie zum Beispiel Neue Nutzerdaten verschicken oder ablaufende G26.3.
 
+![E-Mail-Vorlagen](/img/ui/admin/email-vorlagen.png)
 
-Hier kannst du die Email Vorlagen anpassen, die bei bestimmten Events verschickt werden, wie zum Beispiel Neue Nutzerdaten verschicken oder ablaufende G26.3
+## E-Mail-Vorlagen editieren
 
+Klicke auf eine Vorlage und dann auf den Stift, um sie zu bearbeiten. Mit **Testversand an mich** schickst du dir eine Test-E-Mail.
 
-![](/img/image-9-1024x585.png)
+![Vorlage Passwort zurücksetzen](/img/ui/admin/email-vorlage-bearbeiten.png)
 
-
-
-## Email Vorlagen Editieren
-
-
-
-Klicke auf den Edit Button um eine Vorlage zu editieren
-
-
-![](/img/image-10-1024x870.png)
-
-
-
-Da verschiedene Email Programme nur Plain-Text anzeigen können gibt es hier immer zwei Versionen der Mail. Eine HTML Mail, die man wie eine Website stylen kann. So kannst du hier mit HTML Kenntnissen deine Email verschönern und zum Beispiel Tabellen erstellen. Für Email Programme die kein HTML unterstützen gibt es die Plain-Text Version. Denke immer daran beide anzupassen, wenn du Änderungen vornimmst.
+Da verschiedene E-Mail Programme nur Plain-Text anzeigen können gibt es hier immer zwei Versionen der Mail. Eine HTML Mail, die man wie eine Website stylen kann. So kannst du hier mit HTML Kenntnissen deine E-Mail verschönern und zum Beispiel Tabellen erstellen. Für E-Mail Programme die kein HTML unterstützen gibt es die Plain-Text Version. Denke immer daran beide anzupassen, wenn du Änderungen vornimmst.
 
 
 

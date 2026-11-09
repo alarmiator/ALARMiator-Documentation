@@ -64,4 +64,4 @@ Von Zeit zu Zeit ändern manche Leitstellenbereiche die Datenstruktur der gelief
 
 
 
-Jedes Mitglied hat die Möglichkeit über sein Dashboard eine Alarmierungsgruppe zu deaktivieren. Das Dashboard ist die erste Seite nach dem Login am Web-UI und kann auch am Handy unter Profile (3 Personen oben rechts)  Dashboard gefunden werden.
+Jedes Mitglied hat die Möglichkeit über seine Startseite eine Alarmierungsgruppe zu deaktivieren. Die Startseite ist die erste Seite nach dem Login am Web-UI (Bereich **Meine Alarmierung**) und kann auch am Handy unter Profile (3 Personen oben rechts) gefunden werden.

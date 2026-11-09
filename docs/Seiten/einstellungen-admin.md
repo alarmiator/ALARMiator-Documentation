@@ -20,7 +20,9 @@ Um diese zu erhalten erstelle dir eine eigene Rolle hierfür, die du Mitgliedern
 
 
 
-Alle Mitglieder mit dieser Rolle erhalten nun die Nachrichten
+Alle Mitglieder mit dieser Rolle erhalten nun die Nachrichten.
 
 
-![](/img/image-5-1024x507.png)
+Wähle unter **Admin → Einstellungen** die Rolle als **Empfänger-Gruppe für Admin-Benachrichtigungen** aus und klicke auf **Speichern**.
+
+![Admin → Einstellungen](/img/ui/admin/einstellungen.png)

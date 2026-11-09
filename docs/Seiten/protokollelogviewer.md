@@ -5,11 +5,8 @@ slug: /protokollelogviewer
 
 # Protokolle / Logviewer
 
-Mit dem eingebauten Logviewer kannst du die verschiedenen Logs Live anschauen.
+Mit dem eingebauten Logviewer unter **Admin → Log-Viewer** kannst du die verschiedenen Logs live anschauen.
 
+![Logviewer](/img/ui/admin/logviewer.png)
 
-![](/img/image-7-1024x553.png)
-
-
-
-Welchen Log du anschaust kannst du oben Rechts über ein Dropdown Menü einstellen. Klicke danach auf anzeigen um die Live Ansicht des Logs zu wechseln
+Welchen Log du anschaust (PluginManager, Server, REST API oder Wallboard) wählst du oben über das Dropdown **Logfile** aus. Mit **Auto-Refresh (10s)** wird die Ansicht automatisch aktualisiert. Die Logdateien selbst kannst du unter **Admin → Log-Dateien** herunterladen.

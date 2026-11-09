@@ -12,4 +12,4 @@ slug: /fcmtokens
 Hier siehst du eine Übersicht der Tokens der einzelnen Endgeräte du siehst außerdem, ob Fehler bei der Übermittlung an Nachrichten an dieses Endgerät auftreten und wann zuletzt aktualisiert wurde.
 
 
-![](/img/image-19-1024x466.png)
+![Push-Tokens](/img/ui/admin/push-tokens.png)
